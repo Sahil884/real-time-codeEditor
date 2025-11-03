@@ -8,7 +8,7 @@ import UserAvatar from "./components/userAvatar";
 import Editor from "@monaco-editor/react";
 import ChatBox from "./components/ChatBox";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://real-time-codeeditor-mkbt.onrender.com");
 
 const App = () => {
   const [joined, setJoined] = useState(false);
